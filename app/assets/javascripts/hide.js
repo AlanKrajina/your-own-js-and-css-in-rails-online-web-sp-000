@@ -1,9 +1,6 @@
 function hideWhenClicked(){
 
-  var x = document.getElementById("hide_this");
+  document.getElementById("hide_this").innerText = "";
 
-  x.addEventListener("click", function myFunction() {
-      x.innerHTML = "";
-  });
 
 }
